@@ -1,0 +1,15 @@
+{
+  "name": "sayraa-ai-hr-workforce",
+  "version": "1.0.0",
+  "description": "Sayraa AI HR Workforce - MERN Stack Recruitment Platform",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

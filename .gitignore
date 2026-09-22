@@ -1,0 +1,27 @@
+# ---- Dependencies ----
+node_modules/
+
+# ---- Environment variables (contains secrets — never commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Build outputs ----
+frontend/dist/
+frontend/build/
+
+# ---- Uploads (runtime user data) ----
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# ---- OS / Editor / Tool artifacts ----
+.DS_Store
+Thumbs.db
+.qodo/
+.vscode/
+.idea/
