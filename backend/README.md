@@ -2,7 +2,7 @@
 
 Express.js REST API & WebSocket server powering **Sayraa Talent Hire** — an AI-powered recruitment platform with JWT authentication, Gmail OTP login, AI resume screening, email notifications, and live AI interview rooms.
 
----
+
 
 ## ✨ Features
 
